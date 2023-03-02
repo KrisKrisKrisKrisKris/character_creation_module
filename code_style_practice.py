@@ -14,10 +14,8 @@ def calc(your_number):
     root = calculate_square_root(your_number)
     if your_number <= 0:
         return 'root = 0'
-    else:
-        return root
-        print('Мы вычислили квадратный корень из введённого вами числа.'
-              f'Это будет: {root}')
+    print('Мы вычислили квадратный корень из введённого вами числа.'
+     f'Это будет: {root}')
 
 
 print(message)
